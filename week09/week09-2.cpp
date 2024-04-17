@@ -1,4 +1,4 @@
-///week09-2.cpp 要了解字串與陣列關係
+///week09-2.cpp 要了解字串與陣列的關係
 #include <stdio.h>
 int main()
 {

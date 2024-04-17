@@ -7,7 +7,7 @@ int main()
     scanf("%s", line); ///請不要有空格
     printf("這行字是:%s 裡面的字，分別是:\n");
 
-    for(int i=0; i<11; i++){
+    for(int i=0; i<11; i++){ ///用 for迴圈，把陣列印出來
         printf("第%d個字母: %c 對應的數字是: %d\n", i, line[i], line[i]);
     }
 }
