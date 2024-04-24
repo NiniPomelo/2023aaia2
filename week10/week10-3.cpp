@@ -1,4 +1,5 @@
-///課本第5章 函式/函數 function
+/// week10-4.cpp
+/// 課本第5章 函式/函數 function
 /// page 5-5, 5-6
 #include <stdio.h>
 /// 有參數進來 int a

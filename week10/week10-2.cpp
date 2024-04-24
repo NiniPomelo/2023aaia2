@@ -1,4 +1,5 @@
-///課本第5章 函式/函數 function
+/// week10-2.cpp
+/// 課本第5章 函式/函數 function
 /// page 5-4
 #include <stdio.h>
 int myAdd(int a, int b) {
