@@ -9,8 +9,8 @@ void myPrint(int x[3][4]){
     }
     printf("\n");
 }
-int d[3][4];
-int globalInt;
+int d[3][4]; ///global的變數，會變成0
+int globalInt; ///global的變數，會變成0
 int main()
 {
     int a[3][4]; ///陣列的宣告，沒給值，會是亂碼
@@ -21,8 +21,7 @@ int main()
     myPrint(b);
     myPrint(c); ///請觀察印出來的值，同時思考「左手i、右手j」
     myPrint(d);
-    int localInt;
-    float localFloat;
+    int localInt; ///local變數，沒有給值，但沒給完
     printf("globalInt: %d localInt: %d\n", globalInt, localInt);
 
 }
