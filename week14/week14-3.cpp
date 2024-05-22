@@ -1,4 +1,4 @@
-///week14-2.cpp 課本Page 2-09 比大小的值，"不成立，是0，0就是不成立"
+///week14-3.cpp 課本Page 2-09 比大小的值，"不成立，是0，0就是不成立"
 #include <stdio.h>
 int main()
 {
