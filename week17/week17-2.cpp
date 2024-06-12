@@ -12,10 +12,10 @@ int main()
     int a[10] = {9,8,7,6,5,4,3,2,1,0};
     myPrint(a);
 
-    for(int i=0 ; i<10; i++){
-        for(int j=i+1; j<10; j++){
-            if( a[i] > a[j]){
-                int temp = a[i];
+    for(int i=0 ; i<10; i++){      ///左手i
+        for(int j=i+1; j<10; j++){ ///右手j
+            if( a[i] > a[j]){      ///比較大小不對
+                int temp = a[i];   ///就交換
                 a[i] = a[j];
                 a[j] = temp;
             }
